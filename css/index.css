@@ -1,0 +1,90 @@
+/** @format */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: hsl(24, 5%, 18%);
+}
+
+body {
+  background-color: hsl(30, 54%, 90%);
+}
+
+.container {
+  width: 55vw;
+  background-color: white;
+  min-height: 100vh;
+  margin: 6rem auto;
+  border-radius: 2rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.box1 {
+  width: 100%;
+  background-image: url(/assets/image-omelette.jpeg);
+  height: 40vh;
+  border-radius: 1rem;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+  padding-top: 1rem;
+  font: 400 2.3rem "Young Serif", sans-serif;
+}
+
+h3,
+.ul-1 {
+  padding-left: 2rem;
+}
+
+h3 {
+  color: hsl(330, 91%, 21%);
+  padding-top: 1.5rem;
+}
+
+h2 {
+  padding: 0.8rem 0 1.5rem;
+  font: 200 1.8rem "Young Serif", sans-serif;
+  color: brown;
+}
+
+li {
+  padding: 0.33rem;
+  margin-left: 1.2rem;
+  padding-inline: 1rem;
+}
+
+li::marker {
+  color: brown;
+  font-weight: 700;
+}
+
+.component {
+  margin-bottom: 1rem;
+}
+
+.line {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line p {
+  width: 50%;
+  padding-bottom: 1.2rem;
+  padding-left: 2rem;
+  padding-top: 1.2rem;
+}
+
+.make-bold {
+  font-weight: 600;
+  color: brown;
+  padding: 0;
+}
